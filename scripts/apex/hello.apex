@@ -8,3 +8,8 @@
 string tempvar = 'Enter_your_name_here';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
+
+sf_devops__Work_Item__c workitem = new sf_devops__Work_Item__c(
+    sf_devops__Subject__c='Work item from Apex'
+);
+insert workitem;
