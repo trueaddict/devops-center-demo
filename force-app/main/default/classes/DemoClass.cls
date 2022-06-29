@@ -13,5 +13,6 @@ public with sharing class DemoClass {
     public static void debug() {
         System.debug('Kissa istuu puussa');
         System.debug('Something changed');
+        System.debug('Something changed again');
     }
 }
